@@ -57,7 +57,6 @@ export class Fade extends React.PureComponent {
           ...styles,
         },
       }
-      console.log(props);
       return <Component {...newProps} />
     }
 

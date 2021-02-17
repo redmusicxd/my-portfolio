@@ -153,7 +153,7 @@ export default class Grid extends React.Component {
                           width,
                           height,
                           zIndex:
-                            open ? 1000 : 1,
+                            open === c.key ? 1000 : 1,
                           transform: interpolate(
                             [x, y],
                             (x, y) => `translate3d(${x}px,${y}px, 0)`
